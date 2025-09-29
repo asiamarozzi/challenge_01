@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+  }
+
+/* Stile Menu fissato in alto*/
+.navbar {
+  overflow: hidden;
+  background-color: #1d2643;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f9f9f9;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f9f9f9;
+  color: #1d2643;
+}
+
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 100%;
+  text-align: center;
+}
+
+
+/* stile titolo */
+  .titolo-principale h1 {
+    font-size: 2.5em;
+    color: #1d2643;
+    display: inline-block;
+    padding: 20px;
+ }
+
+.prima-linea {
+    font-weight: 400;
+    color: #1d2643;
+    font-size: 1.3em;
+}
+
+.seconda-linea {
+    font-weight: bold;
+    color: #1d2643;
+    font-size: 1.8em;
+}
+
+.terza-linea {
+    font-weight: 400;
+    color: #1d2643;
+    font-size: 0.8em;
+}
+
+/* Contenuto delle lezioni */
+.lezioni {
+    list-style: none; 
+    padding: 0;     
+    margin: 0 30px;
+  }
+
+.lezioni li {
+    margin: 0 0 20px 0;
+    padding: 50px; 
+    background-color: #f9f9f9;
+    color: #1d2643;
+    transition: all 0.3s ease; 
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    font-size: 40px;
+  }
+
+.lezioni li:hover {
+    background-color: #1d2643;
+    color: #f9f9f9;
+    transform: scale(1.02);
+  }
+
+  .lezioni li a {
+    text-decoration: none;
+    color: inherit; /* Prende il colore del li */
+    font-weight: bold;
+    border-bottom: 1px solid #1d2643;
+  }
+
+  .lezioni li p{
+    font-size: 18px;
+    margin: 10px 0 0 0;
+  }
